@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:PostureApp/constants.dart';
-import 'package:PostureApp/main.dart';
-import 'package:PostureApp/exercise.dart';
+part of 'components.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({

@@ -1,8 +1,8 @@
+import 'package:PostureApp/omponents/RoundedButton.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:PostureApp/constants.dart';
-import 'package:PostureApp/Components/RoundedButton.dart';
 
 void main() => runApp(Timer());
 
