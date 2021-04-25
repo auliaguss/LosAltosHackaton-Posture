@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:PostureApp/constants.dart';
 import 'package:PostureApp/main.dart';
 import 'package:PostureApp/exercise.dart';
@@ -80,10 +81,10 @@ class BottomNavItem extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          // SvgPicture.asset(
-          //   svgScr,
-          //   color: isActive ? warnaAktif : warnaTeks,
-          // ),
+          SvgPicture.asset(
+            svgScr,
+            color: isActive ? warnaAktif : warnaTeks,
+          ),
           Text(
             title,
             style: TextStyle(color: isActive ? warnaAktif : warnaTeks),

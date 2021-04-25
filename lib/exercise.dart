@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:PostureApp/constants.dart';
-import 'package:PostureApp/screens/details_screen.dart';
+import 'package:PostureApp/screens/details/details-screen.dart';
 import 'package:PostureApp/screens/hunch.dart';
 import 'package:PostureApp/widgets/bottom_nav_bar.dart';
 import 'package:PostureApp/widgets/category_card.dart';
