@@ -1,4 +1,4 @@
-import 'package:PostureApp/omponents/RoundedButton.dart';
+import 'package:PostureApp/components/components.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';

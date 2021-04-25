@@ -77,10 +77,10 @@ class BottomNavItem extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
-          // SvgPicture.asset(
-          //   svgScr,
-          //   color: isActive ? warnaAktif : warnaTeks,
-          // ),
+          SvgPicture.asset(
+            svgScr,
+            color: isActive ? warnaAktif : warnaTeks,
+          ),
           Text(
             title,
             style: TextStyle(color: isActive ? warnaAktif : warnaTeks),
